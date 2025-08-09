@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//kc = color = 6 digit color code
+
 const kcPrimaryColor = Color(0xFF8799FD);
 const kcBgColor = Color(0xFF181B24);
 const kcFDFDFD = Color(0xFFFDFDFD);

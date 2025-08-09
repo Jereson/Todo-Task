@@ -12,17 +12,21 @@ import 'package:todo_task/view/widgets/custom_loader/ndialog.dart';
 import 'package:todo_task/view_model/base_view_model.dart';
 
 class TaskVm extends BaseViewModel {
+  //Task controllers ==============================
   final titleController = TextEditingController();
   final endDateController = TextEditingController();
   final priorityController = TextEditingController();
   final descriptionController = TextEditingController();
   final searchController = TextEditingController();
 
-  String? priority;
-  DateTime? rawDate;
+  //Model instants ==========================
 
   TaskModel? taskModel;
   TaskData? taskData;
+
+  //General variables ========================
+  String? priority;
+  DateTime? rawDate;
 
   int? selectTaskIndex;
 
@@ -35,6 +39,8 @@ class TaskVm extends BaseViewModel {
   bool isEditTask = false;
 
   bool isTaskSerch = false;
+
+  //Functions ===========================
 
   List<TaskData> get filterTastList =>
       taskModel?.data
@@ -226,9 +232,7 @@ class TaskVm extends BaseViewModel {
             : '${date.month}';
         endDateController.text = '$day-$month-${date.year}';
         rawDate = date;
-        // rawDate
 
-        // logger.d('confirm $birthDay');
         setState();
       },
       currentTime: DateTime.now(),

@@ -1,17 +1,11 @@
 # todo_task
 
-A new Flutter project.
+An app for tracking tasks.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project centers on tasking magament 
+1. It is with code simplicity
+2. The app is build with provider, getit, sharepreferrence for local sotrage
+3. It uses MVVM clean architecture
 # Todo-Task

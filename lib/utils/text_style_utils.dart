@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:todo_task/utils/color_utils.dart';
 
+//st stand for stype, next 6 digit is color code next 3 digit is fontweight
+//finally last two digit is fontsize
+
 const stFDFDFD60018 = TextStyle(
   color: kcFDFDFD,
   fontSize: 18,

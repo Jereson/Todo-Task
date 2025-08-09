@@ -4,6 +4,7 @@ import 'package:todo_task/get_it.dart';
 import 'package:todo_task/router.dart';
 import 'package:todo_task/utils/color_utils.dart';
 import 'package:todo_task/view/screens/home_screen.dart';
+
 final navKey = GlobalKey<NavigatorState>();
 
 void main() async {
