@@ -8,4 +8,6 @@ This project centers on tasking magament
 1. It is with code simplicity
 2. The app is build with provider, getit, sharepreferrence for local sotrage
 3. It uses MVVM clean architecture
+4. The app is made up of; home screen, add/edit screen
+5. You can add, edit, delete and view the detail of task
 # Todo-Task
